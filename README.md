@@ -1,112 +1,165 @@
+<div align="center">
+
 # Hi, I'm Bekzat Tursun 👋
 
-Backend Software Engineer from Kazakhstan 🇰🇿
+### Backend Software Engineer · Go Developer
 
-I enjoy building reliable backend systems, AI-powered applications, Telegram platforms, and production services. My primary language is Go, but I also work with Python and modern cloud-native technologies.
+I build reliable backend services, AI-powered applications,  
+automation tools, and production-ready systems.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/cobrich)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tursunbekzat)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tursunbekzat07@gmail.com)
+
+</div>
+
+---
+
+## About Me
+
+- Building backend services primarily with **Go**
+- Experienced with **REST APIs, PostgreSQL, Redis, Kafka and Docker**
+- Working with production infrastructure, monitoring and Linux systems
+- Interested in distributed systems, automation and AI integrations
+- Based in **Astana, Kazakhstan**
 
 ---
 
 ## Tech Stack
 
-### Languages
-
-- Go
-- Python
-- SQL
+<div align="center">
 
 ### Backend
 
-- REST APIs
-- gRPC
-- Fiber
-- Gin
-- JWT
-- WebSockets
-- Clean Architecture
-- Concurrency
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
+![Gin](https://img.shields.io/badge/Gin-008ECF?style=flat-square&logo=gin&logoColor=white)
+![Fiber](https://img.shields.io/badge/Fiber-00ACD7?style=flat-square)
+![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square)
 
-### Databases
+### Data & Messaging
 
-- PostgreSQL
-- Redis
-- SQLite
-- ClickHouse
-- Cassandra
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
 
-### Infrastructure
+### Infrastructure & Observability
 
-- Linux
-- Docker
-- Kubernetes
-- Ansible
-- Prometheus
-- Grafana
-- Zabbix
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 
-### Messaging
-
-- Kafka
-- RabbitMQ
-
-### AI
-
-- Google Gemini
-- OpenAI APIs
-- Prompt Engineering
+</div>
 
 ---
 
-# Featured Projects
+## Featured Projects
 
-## 🤖 AI Ustaz
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Production AI-powered educational platform built with Go, PostgreSQL, Docker, and Google Gemini.
+### [AI Ustaz](https://github.com/cobrich/ai-tutor-bot)
+
+AI-powered Telegram tutor supporting text, image and voice questions.
+
+`Go` `PostgreSQL` `Gemini` `OpenAI` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+### [Go2Study](https://github.com/cobrich/Go2StudyTelegramChatBot)
+
+Adaptive learning platform with AI-generated tests, analytics and a complete admin system.
+
+`Python` `PostgreSQL` `Gemini` `Docker`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Scam Checker API](https://github.com/cobrich/scam-checker-api)
+
+Threat intelligence API for phishing detection and concurrent URL analysis.
+
+`Go` `Fiber` `PostgreSQL` `Redis`
+
+</td>
+<td width="50%" valign="top">
+
+### [Netcfg Backup](https://github.com/cobrich/netcfg-backup)
+
+Network configuration backup platform with Web UI, CLI and monitoring.
+
+`Go` `SSH` `SQLite` `Prometheus` `Grafana`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Order Service](https://github.com/cobrich/order-service)
+
+Event-driven order processing system using Kafka Producer and Consumer services.
+
+`Go` `Kafka` `PostgreSQL` `Prometheus`
+
+</td>
+<td width="50%" valign="top">
+
+### [YouTube Audio Looper](https://github.com/cobrich/youtube-audio-looper)
+
+Web app, REST API and Telegram bot for generating looped MP3 clips.
+
+`Go` `Gin` `FFmpeg` `yt-dlp` `Docker`
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🎓 Go2Study
+## GitHub Activity
 
-Adaptive learning platform with AI-generated questions, analytics, and complete administration system.
+<div align="center">
 
----
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=cobrich&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Bekzat's GitHub statistics">
 
-## 🛡 Scam Checker API
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cobrich&layout=compact&hide_border=true&theme=transparent&langs_count=6" alt="Most used languages">
 
-Threat Intelligence backend for phishing detection, DNS analysis, SSL inspection, and concurrent URL analysis.
+</div>
 
----
-
-## ⚙️ Netcfg Backup
-
-Network automation platform for configuration backups, monitoring, and infrastructure management.
+> GitHub language statistics reflect repository file sizes, not professional proficiency.
 
 ---
 
-## 🎵 YouTube Audio Looper
+## Current Focus
 
-REST API for generating looped audio from YouTube videos using FFmpeg.
-
----
-
-# Current Focus
-
-- Backend Engineering
-- Distributed Systems
-- Production Infrastructure
-- System Design
-- Go Ecosystem
+```text
+Go Backend Engineering
+Distributed Systems
+Production Infrastructure
+System Design
+PostgreSQL and Kafka
+```
 
 ---
 
-# Career Repository
+<div align="center">
 
-My professional documentation, resumes, interview notes, and portfolio are maintained here:
+### Let's connect
 
-➡️ https://github.com/cobrich/career
+[LinkedIn](https://linkedin.com/in/tursunbekzat) ·
+[GitHub](https://github.com/cobrich) ·
+[Email](mailto:tursunbekzat07@gmail.com)
 
----
-
-## Connect with me
-
-- Email: tursunbekzat07@gmail.com
-- LinkedIn: https://linkedin.com/in/tursunbekzat
+</div>
