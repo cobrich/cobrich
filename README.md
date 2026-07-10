@@ -68,6 +68,9 @@ automation tools, and production-ready systems.
 
 AI-powered Telegram tutor supporting text, image and voice questions.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://t.me/youraiustazbot)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/ai-tutor-bot)
+
 `Go` `PostgreSQL` `Gemini` `OpenAI` `Docker`
 
 </td>
@@ -76,6 +79,9 @@ AI-powered Telegram tutor supporting text, image and voice questions.
 ### [Go2Study](https://github.com/cobrich/Go2StudyTelegramChatBot)
 
 Adaptive learning platform with AI-generated tests, analytics and a complete admin system.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://t.me/Go2StudyMathBot)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/Go2StudyTelegramChatBot)
 
 `Python` `PostgreSQL` `Gemini` `Docker`
 
@@ -89,6 +95,9 @@ Adaptive learning platform with AI-generated tests, analytics and a complete adm
 
 Threat intelligence API for phishing detection and concurrent URL analysis.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://scam-checker-api.onrender.com/)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/scam-checker-api)
+
 `Go` `Fiber` `PostgreSQL` `Redis`
 
 </td>
@@ -97,6 +106,9 @@ Threat intelligence API for phishing detection and concurrent URL analysis.
 ### [Netcfg Backup](https://github.com/cobrich/netcfg-backup)
 
 Network configuration backup platform with Web UI, CLI and monitoring.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://netcfg-backup.onrender.com/)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/netcfg-backup)
 
 `Go` `SSH` `SQLite` `Prometheus` `Grafana`
 
@@ -109,6 +121,9 @@ Network configuration backup platform with Web UI, CLI and monitoring.
 ### [Order Service](https://github.com/cobrich/order-service)
 
 Event-driven order processing system using Kafka Producer and Consumer services.
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://order-service.onrender.com/)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/order-service)
 
 `Go` `Kafka` `PostgreSQL` `Prometheus`
 
