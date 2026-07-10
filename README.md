@@ -120,25 +120,16 @@ Event-driven order processing system using Kafka Producer and Consumer services.
 
 Web app, REST API and Telegram bot for generating looped MP3 clips.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://youtube-audio-looper.onrender.com/)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/youtube-audio-looper)
+
 `Go` `Gin` `FFmpeg` `yt-dlp` `Docker`
+
+<sub>Live demo may take a few seconds to start.</sub>
 
 </td>
 </tr>
 </table>
-
----
-
-## GitHub Activity
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=cobrich&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" alt="Bekzat's GitHub statistics">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cobrich&layout=compact&hide_border=true&theme=transparent&langs_count=6" alt="Most used languages">
-
-</div>
-
-> GitHub language statistics reflect repository file sizes, not professional proficiency.
 
 ---
 
