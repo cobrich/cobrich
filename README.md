@@ -2,48 +2,51 @@
 
 # Hi, I'm Bekzat Tursun 👋
 
-### Backend Software Engineer · Go Developer
+### Go Backend Engineer
 
-I build reliable backend services, AI-powered applications,  
-automation tools, and production-ready systems.
+I build backend services and APIs with Go, PostgreSQL, Redis, and gRPC.
+My projects focus on concurrency, testing, observability, and production
+reliability.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tursunbekzat)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tursunbekzat07@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-
+badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tursunbekzat)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-
+badge&logo=gmail&logoColor=white)](mailto:tursunbekzat07@gmail.com)
 
 </div>
 
 ---
 
-## About Me
+## About
 
-- Building backend services primarily with **Go**
-- Experienced with **REST APIs, PostgreSQL, Redis, Kafka and Docker**
-- Working with production infrastructure, monitoring and Linux systems
-- Interested in distributed systems, automation and AI integrations
+- Build REST and gRPC services primarily with **Go**
+- Work with **PostgreSQL, Redis, Kafka, Protocol Buffers, and Docker**
+- Develop concurrent processing with **worker pools and asynchronous jobs**
+- Write table-driven unit and HTTP tests with **race detection**
+- Support distributed production systems using **Kubernetes, Linux, logs, and metrics**
 - Based in **Astana, Kazakhstan**
 
 ---
 
-## Tech Stack
+## Core Stack
 
 <div align="center">
 
 ### Backend
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
-![Gin](https://img.shields.io/badge/Gin-008ECF?style=flat-square&logo=gin&logoColor=white)
-![Fiber](https://img.shields.io/badge/Fiber-00ACD7?style=flat-square)
 ![gRPC](https://img.shields.io/badge/gRPC-244C5A?style=flat-square)
+![Protocol Buffers](https://img.shields.io/badge/Protocol_Buffers-4285F4?style=flat-square)
+![Concurrency](https://img.shields.io/badge/Concurrency-00ADD8?style=flat-square)
+![Worker Pools](https://img.shields.io/badge/Worker_Pools-005571?style=flat-square)
 
 ### Data & Messaging
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
 
 ### Infrastructure & Observability
 
@@ -52,7 +55,13 @@ automation tools, and production-ready systems.
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
+
+### Testing & Quality
+
+![Go Testing](https://img.shields.io/badge/Go_Testing-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Table Driven Tests](https://img.shields.io/badge/Table--Driven_Tests-005571?style=flat-square)
+![httptest](https://img.shields.io/badge/httptest-00ADD8?style=flat-square)
+![Race Detector](https://img.shields.io/badge/Race_Detector-CB3837?style=flat-square)
 
 </div>
 
@@ -60,102 +69,69 @@ automation tools, and production-ready systems.
 
 ## Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [AI Ustaz](https://github.com/cobrich/ai-tutor-bot)
-
-AI-powered Telegram tutor supporting text, image and voice questions.
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://t.me/youraiustazbot)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/ai-tutor-bot)
-
-`Go` `PostgreSQL` `Gemini` `OpenAI` `Docker`
-
-</td>
-<td width="50%" valign="top">
-
-### [Go2Study](https://github.com/cobrich/Go2StudyTelegramChatBot)
-
-Adaptive learning platform with AI-generated tests, analytics and a complete admin system.
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://t.me/Go2StudyMathBot)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/Go2StudyTelegramChatBot)
-
-`Python` `PostgreSQL` `Gemini` `Docker`
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### [Scam Checker API](https://github.com/cobrich/scam-checker-api)
 
-Threat intelligence API for phishing detection and concurrent URL analysis.
+Concurrent threat-intelligence API for phishing and malicious URL detection.
+
+- Analyzes URLs using DNS, TLS, WHOIS, HTTP, whitelist, and phishing heuristics
+- Stores threat intelligence in PostgreSQL and caches repeated lookups in Redis
+- Uses table-driven unit and HTTP tests for URL normalization, risk scoring, and API validation
+- Runs tests with Go's race detector and without external network or database dependencies
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://scam-checker-api.onrender.com/)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/scam-checker-api)
 
-`Go` `Fiber` `PostgreSQL` `Redis`
+`Go` `Fiber` `PostgreSQL` `Redis` `httptest`
 
-</td>
-<td width="50%" valign="top">
+---
 
 ### [Netcfg Backup](https://github.com/cobrich/netcfg-backup)
 
-Network configuration backup platform with Web UI, CLI and monitoring.
+Network configuration backup system with a Web UI, CLI, and authenticated gRPC API.
+
+- Collects network-device configurations over SSH and Telnet
+- Uses a worker pool and thread-safe asynchronous job management
+- Defines versioned Protocol Buffers contracts for device and backup operations
+- Stores backup history in SQLite with secure filesystem handling
+- Exposes Prometheus metrics and Grafana monitoring
+- Includes automated tests, race detection, static analysis, and Docker Compose deployment
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://netcfg-backup.onrender.com/)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/netcfg-backup)
 
-`Go` `SSH` `SQLite` `Prometheus` `Grafana`
+`Go` `gRPC` `Protocol Buffers` `SQLite` `SSH` `Prometheus` `Docker`
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
+---
 
 ### [Order Service](https://github.com/cobrich/order-service)
 
-Event-driven order processing system using Kafka Producer and Consumer services.
+Event-driven order processing system built with Kafka producer and consumer services.
+
+- Implements asynchronous order processing with Apache Kafka
+- Persists order data in PostgreSQL
+- Exposes service metrics through Prometheus
+- Containerized for reproducible local deployment
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://order-service.onrender.com/)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/order-service)
 
 `Go` `Kafka` `PostgreSQL` `Prometheus`
 
-</td>
-<td width="50%" valign="top">
-
-### [YouTube Audio Looper](https://github.com/cobrich/youtube-audio-looper)
-
-Web app, REST API and Telegram bot for generating looped MP3 clips.
-
-[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://youtube-audio-looper.onrender.com/)
-[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/youtube-audio-looper)
-
-`Go` `Gin` `FFmpeg` `yt-dlp` `Docker`
-
-<sub>Live demo may take a few seconds to start.</sub>
-
-</td>
-</tr>
-</table>
-
 ---
 
-## Current Focus
+### [AI Ustaz](https://github.com/cobrich/ai-tutor-bot)
 
-```text
-Go Backend Engineering
-Distributed Systems
-Production Infrastructure
-System Design
-PostgreSQL and Kafka
-```
+Educational backend supporting text, image, and voice interactions.
+
+- Integrates Gemini and OpenAI APIs
+- Stores conversation history in PostgreSQL
+- Provides analytics, user feedback, and health monitoring
+- Supports Docker-based deployment
+
+[![Live Demo](https://img.shields.io/badge/Telegram_Bot-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/youraiustazbot)
+[![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/ai-tutor-bot)
+
+`Go` `PostgreSQL` `Gemini` `OpenAI` `Docker`
 
 ---
 
