@@ -8,10 +8,8 @@ I build backend services and APIs with Go, PostgreSQL, Redis, and gRPC.
 My projects focus on concurrency, testing, observability, and production
 reliability.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-
-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tursunbekzat)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-
-badge&logo=gmail&logoColor=white)](mailto:tursunbekzat07@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/tursunbekzat)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tursunbekzat07@gmail.com)
 
 </div>
 
@@ -78,7 +76,6 @@ Concurrent threat-intelligence API for phishing and malicious URL detection.
 - Uses table-driven unit and HTTP tests for URL normalization, risk scoring, and API validation
 - Runs tests with Go's race detector and without external network or database dependencies
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://scam-checker-api.onrender.com/)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/scam-checker-api)
 
 `Go` `Fiber` `PostgreSQL` `Redis` `httptest`
@@ -96,7 +93,6 @@ Network configuration backup system with a Web UI, CLI, and authenticated gRPC A
 - Exposes Prometheus metrics and Grafana monitoring
 - Includes automated tests, race detection, static analysis, and Docker Compose deployment
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://netcfg-backup.onrender.com/)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/netcfg-backup)
 
 `Go` `gRPC` `Protocol Buffers` `SQLite` `SSH` `Prometheus` `Docker`
@@ -112,7 +108,6 @@ Event-driven order processing system built with Kafka producer and consumer serv
 - Exposes service metrics through Prometheus
 - Containerized for reproducible local deployment
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black)](https://order-service.onrender.com/)
 [![Source Code](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/cobrich/order-service)
 
 `Go` `Kafka` `PostgreSQL` `Prometheus`
